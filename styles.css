@@ -1,0 +1,49 @@
+@import "navbar.css";
+@import "footer.css";
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+
+.m-auto{
+    margin: auto;
+}
+
+
+.border:hover{
+    box-shadow: -5px 10px 10px #888888;
+    cursor: pointer;
+}
+.card-img-top:hover{
+    filter: grayscale(100);
+   
+}
+
+.border{
+    border-left: 5px solid red;
+}
+
+
+.body{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(253, 253, 253);
+}
+
+    legend {
+        display:block;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 3px solid rgb(29, 41, 49);
+        background-color:rgb(71, 135, 255);
+        color:white;
+        text-align: center;
+    }
+    
+    
+.body-img-top{
+    width: 350px;;
+    height: 250px;
+}

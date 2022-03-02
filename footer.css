@@ -1,0 +1,36 @@
+.footer {
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100vmax;
+    background: black;
+    color: white;
+    padding: 0.5rem;
+    height: 15vh !important;
+}
+.footer-content {
+    text-align: center;
+    padding: 3vh 0 0 0;
+}
+.social-links-container {
+    color: rgb(255, 255, 255);
+    background-color: beige;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.flex-column {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+li{
+    background-color: rgb(255, 255, 255);
+}
+
+.footer i{
+    background-color: rgb(61, 111, 155);
+}

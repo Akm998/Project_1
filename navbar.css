@@ -1,0 +1,116 @@
+.navbar2 {
+    background-color: black;
+    height: 30px;
+    width: 100vw;
+    border-bottom: 5px solid rgb(34, 99, 173);
+}
+
+.content {
+    display: flex;
+    margin-left: 100px;
+    color: white;
+}
+
+.content p {
+
+    padding: 3px 3px 3px 3px;
+    text-decoration: none;
+    width: auto;
+    text-align: center;
+}
+
+.content p:hover {
+    background-color: rgb(82, 80, 80);
+    cursor: pointer;
+}
+
+.vl {
+    border-left: 1px solid white;
+    height: 40px;
+    
+}
+
+.vm {
+    border-left: 2px solid rgb(39, 39, 39);
+    height: 50px;
+    
+}
+
+.navigation {
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.navigation h1 {
+
+    font-family: "ProximaNovaCond", sans-serif;
+    font-style: normal;
+    line-height: inherit;
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    padding: 2px;
+    text-decoration: none;
+    width: 20%;
+    margin-left: 100px;
+}
+
+.navigation h6 {
+
+    padding: 2px;
+    text-decoration: none;
+    width: 20%;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.navigation h1:hover {
+    cursor: pointer;
+}
+
+
+
+.navbar {
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    text-align: left;
+    word-spacing: 0%;
+}
+
+.navbar-brand {
+    background-color: white;
+    margin-left: 100px;
+    display: inline-block;
+    padding: 10px 10px 10px 10px; 
+}
+
+.navbar-brand p {
+
+    padding: 2px;
+    text-decoration: none;
+    width: auto;
+    text-align: center;
+}
+
+ul {
+    
+    overflow: hidden;
+}
+
+li {
+    
+    display: inline-block;
+}
+li:hover {
+    filter: rgb(17, 0, 255);
+    cursor: pointer;
+}
+.esp{
+    
+    background-color: aqua;
+}
